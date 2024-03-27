@@ -1,0 +1,346 @@
+[1701592261.080][INFO]: Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 17668
+[1701592261.080][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1701592261.504][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1701592261.511][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1701592261.523][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1701592261.526][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1701592261.526][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1701592261.528][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\vnarv\AppData\Local\Temp\scoped_dir16636_716798542" data:,
+[1701592263.452][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1701592263.527][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "119.0.6045.124",
+      "chrome": {
+         "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
+         "userDataDir": "C:\\Users\\vnarv\\AppData\\Local\\Temp\\scoped_dir16636_716798542"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51053"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "26f86d967e5d40f8ee9ededff7461eb6"
+}
+[1701592263.988][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND MaximizeWindow {
+}
+[1701592263.989][INFO]: Waiting for pending navigations...
+[1701592263.990][INFO]: Done waiting for pending navigations. Status: ok
+[1701592264.117][INFO]: Waiting for pending navigations...
+[1701592264.119][INFO]: Done waiting for pending navigations. Status: ok
+[1701592264.119][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE MaximizeWindow {
+   "height": 696,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1701592264.156][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1701592264.156][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE SetTimeouts
+[1701592264.183][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1701592264.183][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE SetTimeouts
+[1701592264.201][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND Navigate {
+   "url": "https://leetcode.com/"
+}
+[1701592264.201][INFO]: Waiting for pending navigations...
+[1701592264.203][INFO]: Done waiting for pending navigations. Status: ok
+[1701592266.068][INFO]: Waiting for pending navigations...
+[1701592274.015][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.015][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE Navigate
+[1701592274.025][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetUrl {
+}
+[1701592274.025][INFO]: Waiting for pending navigations...
+[1701592274.026][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.054][INFO]: Waiting for pending navigations...
+[1701592274.056][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.056][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetUrl "https://leetcode.com/"
+[1701592274.079][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1701592274.079][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE SetTimeouts
+[1701592274.091][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "a[href='/problemset/'] p"
+}
+[1701592274.091][INFO]: Waiting for pending navigations...
+[1701592274.093][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.118][INFO]: Waiting for pending navigations...
+[1701592274.119][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.119][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "38CB87F5E28ECF1BAF613BDAE4F1FF5E_element_19"
+}
+[1701592274.133][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND ClickElement {
+   "id": "38CB87F5E28ECF1BAF613BDAE4F1FF5E_element_19"
+}
+[1701592274.133][INFO]: Waiting for pending navigations...
+[1701592274.135][INFO]: Done waiting for pending navigations. Status: ok
+[1701592274.529][INFO]: Waiting for pending navigations...
+[1701592280.364][INFO]: Done waiting for pending navigations. Status: ok
+[1701592280.364][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE ClickElement
+[1701592280.382][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetUrl {
+}
+[1701592280.383][INFO]: Waiting for pending navigations...
+[1701592280.878][INFO]: Done waiting for pending navigations. Status: ok
+[1701592281.257][INFO]: Waiting for pending navigations...
+[1701592282.044][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.044][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetUrl "https://leetcode.com/problemset/all/"
+[1701592282.067][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND FindElements {
+   "using": "xpath",
+   "value": "(//div[@role='rowgroup'])[2]/div/div[2]"
+}
+[1701592282.067][INFO]: Waiting for pending navigations...
+[1701592282.124][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.238][INFO]: Waiting for pending navigations...
+[1701592282.296][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.296][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_37"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_38"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_39"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_40"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_42"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_43"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_44"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_45"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_46"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_47"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_48"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_49"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_50"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_52"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_53"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_54"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_55"
+}, "..." ]
+[1701592282.322][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_38"
+}
+[1701592282.322][INFO]: Waiting for pending navigations...
+[1701592282.362][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.398][INFO]: Waiting for pending navigations...
+[1701592282.399][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.399][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "1. Two Sum"
+[1701592282.404][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_39"
+}
+[1701592282.404][INFO]: Waiting for pending navigations...
+[1701592282.405][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.415][INFO]: Waiting for pending navigations...
+[1701592282.415][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.415][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "2. Add Two Numbers"
+[1701592282.422][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_40"
+}
+[1701592282.422][INFO]: Waiting for pending navigations...
+[1701592282.423][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.442][INFO]: Waiting for pending navigations...
+[1701592282.443][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.443][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "3. Longest Substring Without Repeating Characters"
+[1701592282.449][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_41"
+}
+[1701592282.449][INFO]: Waiting for pending navigations...
+[1701592282.451][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.469][INFO]: Waiting for pending navigations...
+[1701592282.471][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.472][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "4. Median of Two Sorted Arrays"
+[1701592282.478][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_42"
+}
+[1701592282.479][INFO]: Waiting for pending navigations...
+[1701592282.480][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.498][INFO]: Waiting for pending navigations...
+[1701592282.499][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.499][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "5. Longest Palindromic Substring"
+[1701592282.505][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1701592282.505][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE SetTimeouts
+[1701592282.512][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/problems/two-sum']"
+}
+[1701592282.513][INFO]: Waiting for pending navigations...
+[1701592282.514][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.539][INFO]: Waiting for pending navigations...
+[1701592282.540][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.540][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3415DE3903160436EA348C38E1D543BA_element_88"
+}
+[1701592282.547][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND ClickElement {
+   "id": "3415DE3903160436EA348C38E1D543BA_element_88"
+}
+[1701592282.547][INFO]: Waiting for pending navigations...
+[1701592282.548][INFO]: Done waiting for pending navigations. Status: ok
+[1701592282.793][INFO]: Waiting for pending navigations...
+[1701592285.396][INFO]: Done waiting for pending navigations. Status: ok
+[1701592285.396][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE ClickElement
+[1701592285.401][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetUrl {
+}
+[1701592285.401][INFO]: Waiting for pending navigations...
+[1701592285.427][INFO]: Done waiting for pending navigations. Status: ok
+[1701592285.526][INFO]: Waiting for pending navigations...
+[1701592285.567][INFO]: Done waiting for pending navigations. Status: ok
+[1701592285.567][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetUrl "https://leetcode.com/problems/two-sum/"
+[1701592285.573][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1701592285.573][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE SetTimeouts
+[1701592285.578][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/problems/two-sum/submissions']"
+}
+[1701592285.578][INFO]: Waiting for pending navigations...
+[1701592285.579][INFO]: Done waiting for pending navigations. Status: ok
+[1701592287.161][INFO]: Waiting for pending navigations...
+[1701592287.898][INFO]: Done waiting for pending navigations. Status: ok
+[1701592287.898][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5F926B27D6C699442FC8C32C5F2CCC2E_element_102"
+}
+[1701592287.942][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND ClickElement {
+   "id": "5F926B27D6C699442FC8C32C5F2CCC2E_element_102"
+}
+[1701592287.942][INFO]: Waiting for pending navigations...
+[1701592287.969][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.708][INFO]: Waiting for pending navigations...
+[1701592288.747][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.747][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE ClickElement
+[1701592288.755][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[(contains(@class,'gap'))]/a[contains(@href,'/accounts')]"
+}
+[1701592288.755][INFO]: Waiting for pending navigations...
+[1701592288.757][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.774][INFO]: Waiting for pending navigations...
+[1701592288.775][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.775][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5F926B27D6C699442FC8C32C5F2CCC2E_element_116"
+}
+[1701592288.780][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND GetElementText {
+   "id": "5F926B27D6C699442FC8C32C5F2CCC2E_element_116"
+}
+[1701592288.780][INFO]: Waiting for pending navigations...
+[1701592288.781][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.795][INFO]: Waiting for pending navigations...
+[1701592288.798][INFO]: Done waiting for pending navigations. Status: ok
+[1701592288.798][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE GetElementText "Register or Sign In"
+[1701592288.806][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] COMMAND CloseWindow {
+}
+[1701592288.912][SEVERE]: Unable to receive message from renderer
+[1701592289.119][INFO]: [26f86d967e5d40f8ee9ededff7461eb6] RESPONSE CloseWindow [  ]
